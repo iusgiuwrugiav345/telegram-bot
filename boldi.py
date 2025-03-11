@@ -17,7 +17,7 @@ bot = Bot(token=TELEGRAM_BOT_TOKEN)
 
 async def send_news_with_image(news_text, image_url):
     """Отправляет новость с изображением в Telegram"""
-    message = f"{news_text}\n\n📢 Не пропустите важные события: @insideuzbekistan24"
+    message = f"{news_text}\n\n📢 Не пропустите важные события: @ваш юз"
 
     try:
         if image_url:
