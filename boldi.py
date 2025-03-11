@@ -33,7 +33,7 @@ def get_news():
     headers = {"Authorization": f"Bearer {MISTRAL_API_KEY}", "Content-Type": "application/json"}
     data = {
         "model": "mistral-medium",
-        "messages": [{"role": "system", "content": "Сгенерируй 3 свежие новости Узбекистана и мира подробно. Раздели их пустыми строками. А также не ставь нумерацию"}]
+        "messages": [{"role": "system", "content": "Сгенерируй 3 свежие новости мира подробно. Раздели их пустыми строками. А также не ставь нумерацию"}]
     }
 
     response = requests.post(url, json=data, headers=headers).json()
