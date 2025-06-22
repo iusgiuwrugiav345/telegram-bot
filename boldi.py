@@ -4,10 +4,10 @@ from telegram import Bot
 import time
 
 # 🔹 API-ключи (замени на свои)
-MISTRAL_API_KEY = "sJOjVrVsFcfKjU5tMDbZvCU162V7DtSk"
-UNSPLASH_API_KEY = "253PNYg85795iHWG8RiCLXkUPzDnKhm-35n1XwZWU2Q"
-TELEGRAM_BOT_TOKEN = "7801508703:AAEfVX21WfcMe5R4r-jhPZV91KmZXbvPvO8"
-CHANNEL_ID = "@insideuzbekistan24"
+MISTRAL_API_KEY = "токен"
+UNSPLASH_API_KEY = "токен"
+TELEGRAM_BOT_TOKEN = "токен"
+CHANNEL_ID = "@юз канала"
 
 # 🔹 Настройки
 NUM_NEWS = 3  # Сколько новостей отправлять за раз
